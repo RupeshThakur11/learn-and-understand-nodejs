@@ -1,0 +1,12 @@
+1. require : is a function, that you pass a 'path' to.
+2. module.exports : is what the require function returns.
+
+This works because your code is actually wrapped in a function that is given these things as function parameters.
+Whenever you're writing code in Node, you have
+- require
+- module ( exports is a property of module )
+- __filename
+- __dirname
+to use,
+cause what you write isn't the only thing that's given to V8.
+What you write is actually the body of a function.
