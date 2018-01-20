@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/ES6 Classes/app.js"
+            "program": "${workspaceFolder}/Buffers/app.js"
         }
     ]
 }
